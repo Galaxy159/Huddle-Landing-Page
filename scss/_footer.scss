@@ -1,0 +1,41 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  justify-content: end;
+  column-gap: 1.6rem;
+
+  @include respond(phone) {
+    justify-content: center;
+    column-gap: 1.05rem;
+  }
+
+  & span {
+    height: 4rem;
+    width: 4rem;
+    border: 1.17647px solid white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    cursor: url(../images/pointer.svg), auto;
+    transition: all 0.2s;
+
+    @include respond(phone) {
+      height: 2.8rem;
+      width: 2.8rem;
+      font-size: 1.3rem;
+      border: 0.798301px solid #ffffff;
+    }
+
+    &:hover {
+      color: #ff52c1;
+      border: 1.17647px solid #ff52c1;
+
+      @include respond(phone) {
+        border: 0.798301px solid #ff52c1;
+      }
+    }
+  }
+}
