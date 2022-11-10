@@ -50,6 +50,7 @@ h1 {
 .logo {
   margin-bottom: 9rem;
   height: 5rem;
+  grid-column: 1 / -1;
 
   @include respond(phone) {
     margin-bottom: 7rem;
