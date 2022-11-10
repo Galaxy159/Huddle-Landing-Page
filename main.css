@@ -75,7 +75,7 @@ h1 {
   }
 }
 .main__header {
-  margin-top: 3.2rem;
+  margin-top: 5rem;
 }
 @media (max-width: 1370px) {
   .main__header {
@@ -180,4 +180,4 @@ h1 {
   .footer span:hover {
     border: 0.798301px solid #ff52c1;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */
