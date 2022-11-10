@@ -37,7 +37,7 @@ h1 {
   max-width: 144rem;
   height: 80rem;
   background: url(../images/bg-desktop.svg) no-repeat, #684bb1;
-  padding: 4.4rem 7rem;
+  padding: 5rem 7rem;
   margin: 0 auto;
 
   @include respond(phone) {
